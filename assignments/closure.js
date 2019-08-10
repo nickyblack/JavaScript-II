@@ -1,6 +1,38 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
 
+function milliondollars( ){
+
+  var millyDollar = `You've Won $1,000,000 Dollars`;
+  
+  	
+  function inner(){	  		
+  
+  	alert( millyDollar );
+  
+  }
+  
+  inner( );
+  
+}
+ 
+milliondollars( );
+
+
+
+// ANOTHER CLOSURE JUST FOR GOOD MEASURE :) //
+
+
+function Nicky () {
+  var isTheGreatest = `I love Lindsay`;
+
+  function inner(){
+    alert (isTheGreatest);
+  }
+  inner();
+}
+Nicky();
+
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
